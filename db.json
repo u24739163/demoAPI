@@ -1,48 +1,31 @@
-[
-  {
-    "id": 1,
-    "name": "Michael Tarr",
-    "username": "SlothZA",
-    "email": "michael.tarr@up.ac.za",
-    "address": {
-      "street": "Kulas Light",
-      "suite": "Apt. 556",
-      "city": "Pretoria",
-      "zipcode": "12345",
-      "geo": {
-        "lat": "-37.345678",
-        "lng": "81.345678"
-      }
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
     },
-    "phone": "07147596445",
-    "website": "up.ac.za",
-    "company": {
-      "name": "University of Pretoria",
-      "catchPhrase": "Study Hard",
-      "bs": "education, harness, sleeping"
-    }
-  },
-  {
-    "id": 2,
-    "name": "Emma Watson",
-    "username": "Bookworm",
-    "email": "emma.watson@example.com",
-    "address": {
-      "street": "Baker Street",
-      "suite": "Apt. 221B",
-      "city": "London",
-      "zipcode": "NW1 6XE",
-      "geo": {
-        "lat": "51.5238",
-        "lng": "-0.1586"
-      }
+    {
+      "id": 2,
+      "title": "Post 2"
     },
-    "phone": "07123456789",
-    "website": "example.com",
-    "company": {
-      "name": "UN Women",
-      "catchPhrase": "Equality Now",
-      "bs": "activism, advocacy"
+    {
+      "id": 3,
+      "title": "Post 3"
     }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-]
+}
